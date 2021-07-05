@@ -1,0 +1,102 @@
+* {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 16px;
+}
+body {
+  background: #020202;
+  background-image: url(/src/images/fastFoodPattern.jpg);
+  background-size: fit;
+  background-repeat: repeat;
+}
+html, body {
+  overflow-x: hidden;
+}
+.formModal{
+  margin-top: 12px;
+  background: rgb(250,240,230);
+  background: linear-gradient(126deg, rgba(250,240,230,1) 0%, rgba(228,213,183,1) 100%);
+  box-shadow: 0px 13px 26px 3px rgba(0,0,0,0.75);
+  color: black;
+  padding: 30px;
+  position: absolute;
+  width: 50%;
+  z-index: 200;
+}
+@media screen and (max-width: 420px){
+  .formModal {
+      margin-top: 7rem;
+      width: 80vw;
+      height: 100vh;
+  }
+  .divPopupMotion {
+    z-index: 100000;
+  }
+  .PEmailConsultas {
+    text-align: center;
+    font-size: 18px;    
+  }
+}
+.formConsultasContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PEmailConsultas{
+
+}
+.formModalHero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 648px;
+}
+.mapIco{
+  transform: rotate(90deg);
+}
+.divMapsPosition{
+  position: absolute;
+  margin-top: 210px;
+}
+.divPopupMotion{
+  width: 100%;
+  height: 100vh;
+ /* background-color: rgb(154,154,154,0.2);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  position: absolute;
+  margin-top: 164px;
+ /* display: none; */
+}
+.agendaUl{
+  list-style: none;
+  margin-top: 50px;
+}
+.liTask{
+  border-bottom: 1px solid #020202;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3px;
+}
+.btnDeleteTask{
+  padding: 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  background-color: #cf0000;
+  color: #fff;
+  cursor: pointer;
+}
+.btnEditTask{
+  padding: 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f29900;
+  color: #fff;
+  cursor: pointer;
+}

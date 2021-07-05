@@ -1,0 +1,18 @@
+.slick-dots {
+    margin-bottom: 25px;
+}
+.slick-next{
+    position: absolute;
+    margin-right: 30px;
+}
+.slick-prev{
+    position: absolute;
+    margin-left: 30px;
+}
+.slick-next:before{
+    color: #020202;
+}
+.slick-prev:before{
+    color: #020202;
+    z-index: 10;
+} 

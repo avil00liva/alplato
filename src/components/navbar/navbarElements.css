@@ -1,0 +1,13 @@
+.consultasNoti{
+    position: absolute;
+    top: 20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: #cf0000;
+    color: #fff;
+    border-radius: 50%;
+    
+    justify-content: center;
+    align-items: center;
+}

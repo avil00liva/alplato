@@ -1,0 +1,223 @@
+/*.divContainerMenu {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+.divContentFoods {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+}
+.h1MenuFood {
+    text-align: center;
+}
+.divFood {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    width: 210px;
+    height: 250px;
+    margin: 20px;
+}
+.divFood .imgFood {
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+}*/
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    z-index: 3;
+    background-color: #fefefea8;
+}
+.h1MenuFood {
+    background-color: #fefefea8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.content {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #fefefea8;
+}
+.inputMenu{
+    width: 450px;
+    padding: 10px;
+    outline: none;
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+@media screen and (max-width: 420px){
+    .inputMenu {
+        width: 90%
+    }
+}
+.products-container .product-card {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    background-color: #e4e4e4;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 5px 5px 4px #747474;
+    position: relative;
+    z-index: 3;
+}
+
+.products-container .product-card .product-img {
+    width: 100%;
+    height: 330px;
+}
+
+.products-container .product-card .product-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.products-container .product-card .product-name {
+    display: block;
+    width: 100%;
+    color: #f57224;
+    margin-top: 5px;
+}
+
+.products-container .product-card .product-price {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.products-container .product-card .addcart-btn {
+    background-color: #f57224;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    outline: none;
+}
+
+/* cart */
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.cart-container .cart-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+@media(max-width: 768px) {
+    .cart-container .cart-card {
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 1px solid #e4e4e4;
+    }
+}
+
+.cart-container .cart-card .cart-img {
+    width: 150px;
+    height: 120px;
+}
+
+@media(max-width: 768px) {
+    .cart-container .cart-card .cart-img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.cart-container .cart-card .cart-img img {
+    width: 100%;
+    height: 100%
+}
+
+.cart-container .cart-card .cart-name,
+.cart-container .cart-card .cart-price {
+    width: 150px;
+    margin-left: 20px;
+}
+
+@media(max-width: 768px) {
+
+    .cart-container .cart-card .cart-name,
+    .cart-container .cart-card .cart-price {
+        width: 90%;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 4px;
+    }
+}
+
+.cart-container .cart-card .cart-price-orignal {
+    width: 150px;
+    margin-left: 20px;
+    color: #f57224;
+}
+
+@media(max-width: 768px) {
+
+    .cart-container .cart-card .cart-price-orignal {
+        width: 90%;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 4px;
+    }
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: hidden;
+    outline: none;
+    cursor: pointer;
+    color: red;
+}
+
+.inc,
+.dec {
+    cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .delete-btn {
+        margin-top: 4px;
+    }
+
+    .inc,
+    .dec {
+        margin-top: 4px;
+    }
+}
