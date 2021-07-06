@@ -100,6 +100,16 @@ export const H2Popup=styled.h2`
         margin-left: 60px;
         font-size: 2rem;
     }
+    @media screen and (max-width: 1280px){
+        bottom: 10rem;
+    }
+    @media screen and (max-width: 770px){
+        bottom: 25.5rem;
+    }
+    @media screen and (max-width: 460px){
+        bottom: 10rem;
+        margin-left: 3rem;
+    }
 `
 export const BtnPopup=styled.button`
     position: absolute;
@@ -122,8 +132,14 @@ export const BtnPopup=styled.button`
     border-radius: 10px;
     box-shadow: 8px 7px 11px 2px rgb(0 0 0 / 62%);
     }
+    @media screen and (max-width: 1280px){
+        bottom: 10rem;
+    }
+    @media screen and (max-width: 770px){
+        bottom: 25.5rem;
+    }
     @media screen and (max-width: 460px){
-        bottom: 9.5rem;
+        bottom: 10rem;
         margin-left: 10.8rem;
     }
 `
