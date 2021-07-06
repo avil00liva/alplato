@@ -95,11 +95,6 @@ export const H2Popup=styled.h2`
     color: #cf0000;
     font-weight: bold;
 
-    @media screen and (max-width: 460px){
-        bottom: 160px;
-        margin-left: 60px;
-        font-size: 2rem;
-    }
     @media screen and (max-width: 1280px){
         bottom: 10rem;
     }
