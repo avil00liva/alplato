@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/alplato/static/css/main.82b485ec.chunk.css",
-    "main.js": "/alplato/static/js/main.9066b8c0.chunk.js",
-    "main.js.map": "/alplato/static/js/main.9066b8c0.chunk.js.map",
+    "main.js": "/alplato/static/js/main.fbf7571e.chunk.js",
+    "main.js.map": "/alplato/static/js/main.fbf7571e.chunk.js.map",
     "runtime-main.js": "/alplato/static/js/runtime-main.75624482.js",
     "runtime-main.js.map": "/alplato/static/js/runtime-main.75624482.js.map",
     "static/css/2.f67e6e40.chunk.css": "/alplato/static/css/2.f67e6e40.chunk.css",
-    "static/js/2.5ebecc7e.chunk.js": "/alplato/static/js/2.5ebecc7e.chunk.js",
-    "static/js/2.5ebecc7e.chunk.js.map": "/alplato/static/js/2.5ebecc7e.chunk.js.map",
+    "static/js/2.d0e516c5.chunk.js": "/alplato/static/js/2.d0e516c5.chunk.js",
+    "static/js/2.d0e516c5.chunk.js.map": "/alplato/static/js/2.d0e516c5.chunk.js.map",
     "index.html": "/alplato/index.html",
     "static/css/2.f67e6e40.chunk.css.map": "/alplato/static/css/2.f67e6e40.chunk.css.map",
     "static/css/main.82b485ec.chunk.css.map": "/alplato/static/css/main.82b485ec.chunk.css.map",
-    "static/js/2.5ebecc7e.chunk.js.LICENSE.txt": "/alplato/static/js/2.5ebecc7e.chunk.js.LICENSE.txt",
+    "static/js/2.d0e516c5.chunk.js.LICENSE.txt": "/alplato/static/js/2.d0e516c5.chunk.js.LICENSE.txt",
     "static/media/bgHero.e5f22b6c.jpg": "/alplato/static/media/bgHero.e5f22b6c.jpg",
     "static/media/cards-container-bg.c706a028.jpg": "/alplato/static/media/cards-container-bg.c706a028.jpg",
     "static/media/App.css": "/alplato/static/media/fastFoodPattern.eb87df23.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.75624482.js",
     "static/css/2.f67e6e40.chunk.css",
-    "static/js/2.5ebecc7e.chunk.js",
+    "static/js/2.d0e516c5.chunk.js",
     "static/css/main.82b485ec.chunk.css",
-    "static/js/main.9066b8c0.chunk.js"
+    "static/js/main.fbf7571e.chunk.js"
   ]
 }
