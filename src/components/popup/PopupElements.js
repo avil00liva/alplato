@@ -142,7 +142,6 @@ export const BtnPopup=styled.button`
     }
     @media screen and (max-width: 370px){
         bottom: 8rem;
-        margin-left: 10.8rem;
     }
 `
 export const ImgPromo=styled.img`
