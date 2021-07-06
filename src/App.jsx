@@ -36,7 +36,7 @@ function App() {
   return (
     <ProductsContextProvider>
       <AuthContextProvider>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/addproducts" component={AddProducts}/>
