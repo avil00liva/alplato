@@ -1,4 +1,5 @@
 import './App.css';
+// eslint-disable-next-line no-unused-vars
 import {HashRouter as Router, Switch, Route, Link, Redirect} from "react-router-dom"
 import Home from './pages';
 import AddProducts from './components/addProducts/AddProducts';
@@ -7,9 +8,10 @@ import Sign from './components/sign/Sign';
 import Agenda from './components/agenda/agenda';
 import FoodMenu from './components/foodMenu/foodMenu';
 import LeerConsultas from './components/btnform/LeerConsultas';
-import {AuthContextProvider, useAuthState} from "../src/config/config"
+import {AuthContextProvider, useAuthState} from "./config/config"
 import Mapres from './components/maps/mapres';
 
+// eslint-disable-next-line no-unused-vars
 const AuthenticatedRoute=({component: C,...props})=>{
   const {isAuthenticated}=useAuthState()
   return(
@@ -21,6 +23,7 @@ const AuthenticatedRoute=({component: C,...props})=>{
       />
   )
 }
+// eslint-disable-next-line no-unused-vars
 const UnauthenticatedRoute=({component: C, ...props})=>{
   const {isAuthenticated}=useAuthState()
   return (
