@@ -110,6 +110,9 @@ export const H2Popup=styled.h2`
         bottom: 10rem;
         margin-left: 3rem;
     }
+    @media screen and (max-width: 370px){
+        bottom: 8rem;
+    }
 `
 export const BtnPopup=styled.button`
     position: absolute;
@@ -140,6 +143,10 @@ export const BtnPopup=styled.button`
     }
     @media screen and (max-width: 460px){
         bottom: 10rem;
+        margin-left: 10.8rem;
+    }
+    @media screen and (max-width: 370px){
+        bottom: 8rem;
         margin-left: 10.8rem;
     }
 `
