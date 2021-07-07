@@ -37,10 +37,10 @@ const Popup = () => {
                         <PopupContainer>
                             <H1Popup>Oferta <br /> Imperdible!</H1Popup>
                             <PPopup>Lleva 2 combos<br/> "Sushi xpress"<br/> a mitad de precio.</PPopup>
-                            <H2Popup>50<sup>%</sup><br/>Off</H2Popup>
+                            <H2Popup className="h2popup">50<sup>%</sup><br/>Off</H2Popup>
                             <ImgPromo src={SushiPromo} type="sushiPromo/jpg"/>
                             <IClosePopup onClick={()=>setPopup(false)}><MdClose/></IClosePopup>
-                            <BtnPopup>Order now!!</BtnPopup>
+                            <BtnPopup className="btnpopup">Order now!!</BtnPopup>
                             <SideDiv />
                         </PopupContainer>
                     </Background>

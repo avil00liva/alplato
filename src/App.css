@@ -38,6 +38,14 @@ html, body {
     font-size: 18px;    
   }
 }
+@media screen and (max-width: 370px){
+  .h2popup {
+    bottom: 8rem;
+  }
+  .btnpopup {
+    bottom: 8rem;
+  }
+}
 .formConsultasContainer{
   display: flex;
   align-items: center;
