@@ -10,7 +10,6 @@ export const Background=styled.div`
     position: absolute;
 `
 export const PopupContainer=styled.div`
-    
     width: 500px;
     height: 500px;
     background-color: #eaeaea;
