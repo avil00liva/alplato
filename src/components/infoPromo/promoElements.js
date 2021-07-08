@@ -14,11 +14,16 @@ export const SectionNews=styled.section`
     justify-content: space-between;
     align-items: center;
 
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         display: flex;
         justify-content: center;
         align-items: center;
     }
+   /* @media screen and (max-width: 380px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }*/
 `
 export const NewsDiv=styled.div`
     align-items: stretch;
@@ -29,7 +34,7 @@ export const NewsDiv=styled.div`
     @media screen and (max-width: 770px){
         margin: 10px 20px 0 3rem;
     }
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         background-color: #fff;
         align-items: center;
         text-align: center;
@@ -47,14 +52,17 @@ export const H3News=styled.h3`
     margin-left: 7px;
     border-bottom: 2px solid #0D816A;
 
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         display: inline-block;
-        margin-top: 2rem;
+        margin-top: 0.5rem;
         font-size: 1.5rem;
         color: #05a081;
         font-weight: bold;
         margin-left: 7px;
         border-bottom: 2px solid #0D816A;
+    }
+    @media screen and (max-width: 367px){
+        margin-top: 1rem;
     }
     
 `
@@ -77,7 +85,7 @@ export const PNews=styled.p`
         font-size: 1rem;
         margin-top: 1rem;
     }
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         margin: -15px 5px 5px;
         font-size: 1.5rem;
         width: 100%;
@@ -103,7 +111,7 @@ export const LinkAddressNews=styled(LinkAN)`
         transition: .3s;
     }
 
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         margin: 10px;
     }
 `
@@ -119,7 +127,7 @@ export const SideImg=styled.div`
     justify-content: center;
     position: relative;
 
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         background-color: #0D816A;
         background: rgb(67,181,129);
         background: linear-gradient(180deg, rgba(67,181,129,1) 0%, rgba(13,129,106,1) 100%);
@@ -140,7 +148,7 @@ export const ImgFoodNews=styled.img`
         left: 65%;
         margin-top: -1.5rem;
 
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         align-items: center;
         z-index: 50;
         clip-path: circle(100px);
@@ -166,7 +174,7 @@ export const ImgSliderFoodNews=styled.img`
         height: 18rem;
         width: 18rem;
     }
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 480px){
         z-index: 50;
         clip-path: circle(100px);
         position: relative;

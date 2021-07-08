@@ -104,6 +104,21 @@ export const BtnConsulta=styled.button`
     }
     @media screen and (max-width: 480px){
         text-align: center;
+        top: -15%;
+        position: absolute;
+        padding: 1px 5px;
+        border: none;
+        cursor: pointer;
+        font-size: .9rem;
+        font-weight: bold;
+        background-color: #05A081;
+        color: #fff;
+        border-radius: 50%;
+        box-shadow: 1px 4px 2px -2px black;
+        text-shadow: 1px 1px 2px black;
+    }
+    @media screen and (max-width: 365px){
+        text-align: center;
         left: 70%;
         top: -28%;
         position: absolute;

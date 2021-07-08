@@ -3,14 +3,11 @@ import styled from "styled-components"
 export const Background=styled.div`
     width: 100%;
     height: 100vh;
-   /* background-color: rgb(154,154,154,0.2);*/
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
     position: absolute;
-    /*margin-top: 164px;*/
-   /* display: none; */
 `
 export const PopupContainer=styled.div`
     
@@ -20,9 +17,13 @@ export const PopupContainer=styled.div`
     border-radius: 10px;
     box-shadow: 11px 11px 17px 6px rgba(0,0,0,0.62);
 
-    @media screen and (max-width: 460px){
+    @media screen and (max-width: 480px){
+        width: 70%;
+        height: 30rem;
+    }
+    @media screen and (max-width: 380px){
        width: 55%;
-       height: 350px;
+       height: 21.875rem;
     }
 `
 export const SideDiv=styled.div`
@@ -34,7 +35,6 @@ export const SideDiv=styled.div`
     width: 25%;
     align-items: center;
     justify-content: center;
-    position: relative;
     margin-left: 75.1%;
     border-radius: 0 10px 10px 0;
 `
@@ -47,10 +47,13 @@ export const IClosePopup=styled.i`
     right: 245px;
 
     @media screen and (max-width: 770px){
-        right: 140px;
+        right: 8.75rem;
     }
-    @media screen and (max-width: 460px){
-        right: 150px;
+    @media screen and (max-width: 480px){
+        right: 6.3rem;
+    }
+    @media screen and (max-width: 365px){
+        right: 9.3rem;
     }
 `
 export const H1Popup=styled.h1`
@@ -65,6 +68,9 @@ export const H1Popup=styled.h1`
     @media screen and (max-width: 460px){
        font-size: 3rem;
     }
+    @media screen and (max-width: 365px){
+        font-size: 2.5rem;
+    }
 `
 export const PPopup=styled.p`
     position: absolute;
@@ -75,14 +81,18 @@ export const PPopup=styled.p`
     margin-top: 225px;
     margin-left: 20px;
 
-    @media screen and (max-width: 460px){
+    @media screen and (max-width: 480px){
         line-height: 30px;
-        margin-top: 150px;
+        margin-top: 11rem;
         z-index: 2;
         font-size: 25px;
         background: linear-gradient(50deg, rgba(0,0,0,1) 0%, rgba(67,181,129,1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    @media screen and (max-width: 365px){
+        font-size: 1.5rem;
+        margin-top: 7.2rem;
     }
 
 `
@@ -101,12 +111,12 @@ export const H2Popup=styled.h2`
     @media screen and (max-width: 770px){
         bottom: 25.5rem;
     }
-    @media screen and (max-width: 460px){
+    @media screen and (max-width: 480px){
         bottom: 10rem;
-        margin-left: 3rem;
+        margin-left: 3.5rem;
     }
-    @media screen and (max-width: 370px){
-        bottom: 8rem;
+    @media screen and (max-width: 365px){
+        bottom: 10rem;
     }
 `
 export const BtnPopup=styled.button`
@@ -136,12 +146,14 @@ export const BtnPopup=styled.button`
     @media screen and (max-width: 770px){
         bottom: 25.5rem;
     }
-    @media screen and (max-width: 460px){
-        bottom: 10rem;
-        margin-left: 10.8rem;
+    @media screen and (max-width: 480px){
+        bottom: 6.5rem;
+        margin-left: 14.5rem;
     }
-    @media screen and (max-width: 370px){
-        bottom: 8rem;
+    @media screen and (max-width: 365px){
+        padding: 8px 22px;
+        bottom: 10rem;
+        margin-left: 11.2rem;
     }
 `
 export const ImgPromo=styled.img`
@@ -156,10 +168,15 @@ export const ImgPromo=styled.img`
     &:hover {
         transform: scale(1.2) rotate(35deg);
     }
-    @media screen and (max-width: 460px){
-        margin-left: 193px;
-        margin-top: 150px;
-        width: 150px;
-        height: 150px;
+    @media screen and (max-width: 480px){
+        right: 6.5rem;
+        width: 250px;
+        height: 250px;
+    }
+    @media screen and (max-width: 365px){
+        right: 9.5rem;
+        margin-top: 10rem;
+        width: 170px;
+        height: 170px;
     }
 `
