@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/alplato/static/css/main.1c568f7e.chunk.css",
+    "main.js": "/alplato/static/js/main.09ef12ac.chunk.js",
+    "main.js.map": "/alplato/static/js/main.09ef12ac.chunk.js.map",
+    "runtime-main.js": "/alplato/static/js/runtime-main.75624482.js",
+    "runtime-main.js.map": "/alplato/static/js/runtime-main.75624482.js.map",
+    "static/css/2.f67e6e40.chunk.css": "/alplato/static/css/2.f67e6e40.chunk.css",
+    "static/js/2.d0e516c5.chunk.js": "/alplato/static/js/2.d0e516c5.chunk.js",
+    "static/js/2.d0e516c5.chunk.js.map": "/alplato/static/js/2.d0e516c5.chunk.js.map",
+    "index.html": "/alplato/index.html",
+    "static/css/2.f67e6e40.chunk.css.map": "/alplato/static/css/2.f67e6e40.chunk.css.map",
+    "static/css/main.1c568f7e.chunk.css.map": "/alplato/static/css/main.1c568f7e.chunk.css.map",
+    "static/js/2.d0e516c5.chunk.js.LICENSE.txt": "/alplato/static/js/2.d0e516c5.chunk.js.LICENSE.txt",
+    "static/media/bgHero.e5f22b6c.jpg": "/alplato/static/media/bgHero.e5f22b6c.jpg",
+    "static/media/cards-container-bg.c706a028.jpg": "/alplato/static/media/cards-container-bg.c706a028.jpg",
+    "static/media/App.css": "/alplato/static/media/fastFoodPattern.eb87df23.jpg",
+    "static/media/food-1.6478c18f.jpg": "/alplato/static/media/food-1.6478c18f.jpg",
+    "static/media/food-2.0ef91072.jpg": "/alplato/static/media/food-2.0ef91072.jpg",
+    "static/media/food-3.f9682ce6.jpg": "/alplato/static/media/food-3.f9682ce6.jpg",
+    "static/media/food-4.ef366acd.jpg": "/alplato/static/media/food-4.ef366acd.jpg",
+    "static/media/food-5.79f8d125.jpg": "/alplato/static/media/food-5.79f8d125.jpg",
+    "static/media/imgTooltipcut.09a2ca1c.jpg": "/alplato/static/media/imgTooltipcut.09a2ca1c.jpg",
+    "static/media/map.a95516ff.png": "/alplato/static/media/map.a95516ff.png",
+    "static/media/slick-theme.css": "/alplato/static/media/slick.c94f7671.ttf",
+    "static/media/sushiPromo.0ca82187.jpg": "/alplato/static/media/sushiPromo.0ca82187.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75624482.js",
+    "static/css/2.f67e6e40.chunk.css",
+    "static/js/2.d0e516c5.chunk.js",
+    "static/css/main.1c568f7e.chunk.css",
+    "static/js/main.09ef12ac.chunk.js"
+  ]
+}
