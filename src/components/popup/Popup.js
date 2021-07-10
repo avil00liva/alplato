@@ -12,6 +12,9 @@ import {
     SideDiv,
     IClosePopup,
     BtnPopup,
+    PopupContent,
+    PopupText,
+    PopupPic,
 } from "./PopupElements"
 
 const popupVariants={
@@ -35,13 +38,19 @@ const Popup = () => {
                 <motion.div className="divPopupMotion" variants={popupVariants} initial="hidden" animate="show">
                     <Background>
                         <PopupContainer>
-                            <H1Popup>Oferta <br /> Imperdible!</H1Popup>
-                            <PPopup>Lleva 2 combos<br/> "Sushi xpress"<br/> a mitad de precio.</PPopup>
-                            <H2Popup className="h2popup">50<sup>%</sup><br/>Off</H2Popup>
-                            <ImgPromo src={SushiPromo} type="sushiPromo/jpg"/>
                             <IClosePopup onClick={()=>setPopup(false)}><MdClose/></IClosePopup>
-                            <BtnPopup className="btnpopup">Order now!!</BtnPopup>
                             <SideDiv />
+                            <H1Popup>Oferta <br /> Imperdible!</H1Popup>
+                            <PopupContent>
+                                <PopupText>
+                                    <PPopup>Lleva 2 combos<br/> "Sushi xpress"<br/> a mitad de precio.</PPopup>
+                                    <H2Popup className="h2popup">50<sup>%</sup><br/>Off</H2Popup>
+                                </PopupText>
+                                <PopupPic>
+                                    <ImgPromo src={SushiPromo} type="sushiPromo/jpg"/>
+                                    <BtnPopup className="btnpopup">Order now!!</BtnPopup>
+                                </PopupPic>
+                            </PopupContent>
                         </PopupContainer>
                     </Background>
                 </motion.div>
